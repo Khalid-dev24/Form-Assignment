@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+ <form action="" method="post">
+      <label for="firstname">First Name</label>
+      <input type="text" name="first name" id="first name">
+      <p><label for="lastname">Last Name</label>
+      <input type="text" name="lastname" id="lastname" required></p>
+      <p><label for="password">Password</label>
+      <input type="password" name="password" id="password" required></p>
+      <p><label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required></p>
+      <p><label for="number">Phone Number</label>
+      <input type="number" name="number" id="number" required></p>
+      <p><label for="dateofbirth">Date Of Birth</label>
+      <input type="date" required></p>
+      <label for="address">Address</label>
+      <input type="text" name="address" id="address" required></p>
+      <p><label for="gender">Gender</label>
+      <label><input type="radio" name="gender" id="gender">Male</label>
+      <label><input type="radio" name="gender" id="gender">Female</label></p>
+      <label for="hobbies">Hobbies</label>
+      <label><input type="checkbox" name="hobbies" id="hobbies">Music</label>
+      <label><input type="checkbox" name="hobbies" id="hobbies">Football</label>
+      <label><input type="checkbox" name="hobbies" id="hobbies">Swimming</label>
+      <p><label>Select Country </label><select name="country" id="country" required>
+         <option value="">--Select option--</option>
+         <option value="us">United States Of America</option>
+         <option value="uk">United Kingdom</option>
+         <option value="ng">Nigeria</option>
+         <option value="ch">China</option>
+         <option value="aus">Australia</option>
+         <option value="ger">Germany</option></select>
+   </p>
+      <p><label>Select Occupation </label><select name="state" id="state" required>
+         <option value="">--Occupation--</option>
+         <option value="dr">Doctor</option>
+         <option value="law">Lawyer</option>
+         <option value="engr">Engineer</option>
+         <option value="stu">Student</option>
+         <option value="others">Others</option></select>
+      </p>
+      <p><label for="cv">CV</label>
+      <input type="file" name="cv" id="cv" multiple></p>
+      <label for="bio">Biography</label>
+      <textarea name="bio" id="bio" rows="10" cols="20" placeholder="Tell us a bit about yourself..."></textarea></p>
+      <label><input type="checkbox" name="terms" id="terms">Agreed to the terms and conditions</label></p>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+</form>
+</body>
+</html>
